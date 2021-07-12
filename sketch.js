@@ -124,6 +124,6 @@ function mouseReleased(){
 }
 function keyPressed(){
   if(keyCode === 32){
-    this.ball.attach(slingShot);
+    this.ball.slingShot.attach(ball);
   }
 }
